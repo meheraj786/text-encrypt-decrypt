@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a, button{
+  text-decoration: none;
+  cursor: pointer;
+}
+:root{
+  --aqua: #38D9BA;
+  --bg-aqua: #17FFC7;
+}
