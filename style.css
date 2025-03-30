@@ -10,4 +10,86 @@ a, button{
 :root{
   --aqua: #38D9BA;
   --bg-aqua: #17FFC7;
+  --bg: #000910;
+}
+body{
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+}
+header{
+ background: var(--bg);
+ text-align: center;
+}
+header img{
+  width: 300px;
+}
+#banner{
+  background: var(--bg);
+  padding-top: 100px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+#banner .banner-text h1{
+  font-size: 58px;
+  margin-bottom: 60px;
+}
+#banner .banner-text button{
+  background: var(--aqua);
+  color: var(--bg);
+  font-size: 22px;
+  padding: 15px 36px;
+  border-radius: 24px;
+  border: 1px solid var(--aqua);
+  margin-right: 10px;
+}
+#banner .banner-text button:hover{
+  background: transparent;
+  color: white;
+  font-size: 22px;
+  padding: 15px 36px;
+  border-radius: 24px;
+  border: 1px solid var(--aqua);
+  margin-right: 10px;
+}
+#banner .banner-text .info{
+  background: transparent;
+  color: white;
+  border: 1px solid var(--aqua);
+  font-size: 22px;
+  padding: 15px 36px;
+  border-radius: 24px;
+  margin-right: 10px;
+}
+#banner .banner-text .info:hover{
+  background: var(--aqua);
+  color: var(--bg);
+  font-size: 22px;
+  padding: 15px 36px;
+  border-radius: 24px;
+  border: 1px solid var(--aqua);
+  margin-right: 10px;
+}
+#banner .shapes img:first-child{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+#banner .shapes img:nth-child(2){
+  position: absolute;
+  top: 40%;
+  right: 20%;
+}
+#banner .shapes img:nth-child(3){
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+#banner .shapes img:nth-child(4){
+  position: absolute;
+  top: 10%;
+  right: 10%;
 }
