@@ -6,6 +6,7 @@
 a, button{
   text-decoration: none;
   cursor: pointer;
+  color: white;
 }
 :root{
   --aqua: #38D9BA;
@@ -15,6 +16,7 @@ a, button{
 body{
   font-family: "JetBrains Mono", monospace;
   color: white;
+  scroll-behavior: smooth;
 }
 header{
  background: var(--bg);
@@ -47,6 +49,9 @@ header img{
   border: 1px solid var(--aqua);
   margin-right: 10px;
 }
+#banner .banner-text button a{
+  color: var(--bg);
+}
 #banner .banner-text button:hover{
   background: transparent;
   color: white;
@@ -55,6 +60,9 @@ header img{
   border-radius: 24px;
   border: 1px solid var(--aqua);
   margin-right: 10px;
+}
+#banner .banner-text button:hover a{
+  color: white;
 }
 #banner .banner-text .info{
   background: transparent;
@@ -65,6 +73,9 @@ header img{
   border-radius: 24px;
   margin-right: 10px;
 }
+#banner .banner-text .info a {
+  color: white;
+}
 #banner .banner-text .info:hover{
   background: var(--aqua);
   color: var(--bg);
@@ -73,6 +84,9 @@ header img{
   border-radius: 24px;
   border: 1px solid var(--aqua);
   margin-right: 10px;
+}
+#banner .banner-text .info:hover a{
+  color: var(--bg);
 }
 #banner .shapes img:first-child{
   position: absolute;
