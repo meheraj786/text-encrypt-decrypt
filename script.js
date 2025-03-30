@@ -1,3 +1,41 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const parralax1 = document.querySelectorAll(".shapes .element");
 const parralaxArr1= Array.from(parralax1)
 let s = 50;

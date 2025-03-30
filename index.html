@@ -39,11 +39,13 @@
         <h6>Enter any text to be Encrypted</h6>
         <textarea name="input" id="input"></textarea>
 <div class="checkbox">
-  <input class="key" type="checkbox"><label for="key">Encrypt with a custom secret key</label>
+  <input checked class="key" type="checkbox"><label for="key">Encrypt with a custom secret key</label>
 </div>
-<label for="input-key">Enter Secret Key
-</label>
-        <input type="text">
+<div class="key">
+  <label for="input-key">Enter Secret Key
+  </label>
+          <input  placeholder="123"  type="text">
+</div>
         <button class="en-result">Encrypt</button>
       </div>
       <div class="output">
@@ -57,12 +59,14 @@
         <h6>Enter Encrypted Text to Decrypt</h6>
         <textarea name="input" id="input"></textarea>
         <div class="checkbox">
-          <input class="key" type="checkbox"><label for="key">Decryption requires a custom secret key</label>
+          <input checked class="key" type="checkbox"><label for="key">Decryption requires a custom secret key</label>
         </div>
-        <label for="input-key">Enter Secret Key
-        </label>
-        <input type="text">
-        <button class="en-result">Encrypt</button>
+<div class="key">
+  <label for="input-key">Enter Secret Key
+  </label>
+  <input placeholder="123" type="text">
+</div>
+        <button class="en-result">Decrypt</button>
       </div>
       <div class="output">
         <h6>Encrypted Output</h6>
