@@ -157,7 +157,7 @@ header img{
   padding: 10px;
   background: var(--bg);
   color: white;
-  border: 1px solid var(--aqua);
+  border: 1px solid grey;
   border-radius: 10px;
 }
 #main button{
