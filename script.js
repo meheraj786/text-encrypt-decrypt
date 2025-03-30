@@ -1,11 +1,4 @@
 
-
-
-
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  // Encryption Elements
   const encryptBtn = document.querySelector(".main-left .en-result");
   const encryptInput = document.querySelector(".main-left textarea");
   const encryptOutput = document.querySelector(".main-left .output textarea");
@@ -27,24 +20,23 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
         encryptKeyInput.disabled = true;
         encryptKeyInput.style.borderColor= "grey"
-
     }
 });
 decrypCheckbox.addEventListener("change", () => {
     if (decrypCheckbox.checked) {
       decryptKeyInput.disabled = false;
       decryptKeyInput.style.borderColor= "var(--aqua)"
+    }else {
       decryptKeyInput.disabled = true; 
       decryptKeyInput.style.borderColor= "grey"
-    }
+  }
 });
   function encryptText() {
       let text = encryptInput.value.trim();
-      let key = parseInt(encryptKeyInput.value.trim()) || 3; // Default key = 3
+      let key = parseInt(encryptKeyInput.value.trim()) || 3;
 
       if (!text) {
           alert("Please enter text to encrypt!");
-          return;
       }
     
 
@@ -57,14 +49,11 @@ decrypCheckbox.addEventListener("change", () => {
       encryptOutput.value = encrypted;
   }
 
-  // Function to Decrypt Text
   function decryptText() {
       let encryptedText = decryptInput.value.trim();
-      let key = parseInt(decryptKeyInput.value.trim()) || 3; // Default key = 3
-
+      let key = parseInt(decryptKeyInput.value.trim()) || 3; 
       if (!encryptedText) {
           alert("Please enter encrypted text!");
-          return;
       }
 
       let decrypted = "";
@@ -76,38 +65,8 @@ decrypCheckbox.addEventListener("change", () => {
       decryptOutput.value = decrypted;
   }
 
-  // Event Listeners
   encryptBtn.addEventListener("click", encryptText);
   decryptBtn.addEventListener("click", decryptText);
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -44,7 +44,7 @@
 <div class="key">
   <label for="input-key">Enter Secret Key
   </label>
-          <input  disabled class="disabled" placeholder="123"  type="text">
+          <input  disabled class="disabled" placeholder="123"  type="number">
 </div>
         <button class="en-result">Encrypt</button>
       </div>
@@ -64,7 +64,7 @@
 <div class="key">
   <label for="input-key">Enter Secret Key
   </label>
-  <input disabled class="disabled" placeholder="123" type="text">
+  <input disabled class="disabled" placeholder="123" type="number">
 </div>
         <button class="en-result">Decrypt</button>
       </div>
@@ -74,7 +74,41 @@
       </div>
     </div>
   </div>
+</div>
+<div id="description">
+  <div class="description-main">
+    <h1>What is Encrypt and Decrypt?</h1>
+        <p>In today's digital age, data security is more important than ever. As we communicate, share, and store sensitive information online, <span class="highlight">encryption</span> and <span class="highlight">decryption</span> play a vital role in safeguarding our data. But what exactly are encryption and decryption, and how do they work?</p>
+        
+        <h2>Encryption: Securing Your Data</h2>
+        <p>Encryption is the process of converting plain text or readable data into a format that cannot be understood by unauthorized parties. Think of it as locking your information in a safe using a secret key. Only those who possess the right key can access the data.</p>
+        <p>For example, when you send a message over the internet, encryption scrambles the content using a specific algorithm and key, making it unreadable to anyone trying to intercept it. Only the intended recipient, who has the decryption key, can unlock the message.</p>
 
+        <h2>Decryption: Unlocking the Safe</h2>
+        <p>Decryption is the reverse process of encryption. It takes encrypted data (ciphertext) and converts it back into its original readable form (plaintext) using a key. Decryption ensures that authorized users can access and understand the information, while others remain locked out.</p>
+        <p>In simple terms, if encryption is about creating a coded message, decryption is about deciphering that code. Both processes rely on algorithms and keys, which form the backbone of modern data security.</p>
+
+        <h2>Why Are Encryption and Decryption Important?</h2>
+        <p>Encryption and decryption protect against unauthorized access, data theft, and privacy violations. Whether it's safeguarding personal files, securing online banking information, or ensuring safe communication, these processes are critical to maintaining trust and integrity in the digital world.</p>
+
+        <h2>How to Use Our Tool</h2>
+        <p>Our encryption and decryption tool is designed for simplicity and security. Follow these steps:</p>
+        <h3>Encrypt Text:</h3>
+        <ul>
+            <li>Enter the text you want to encrypt in the left-side input box.</li>
+            <li>Choose whether to use a custom key by checking/unchecking the key option.</li>
+            <li>Provide a key (default is 3, if not specified).</li>
+            <li>Click "Encrypt" to generate the encrypted output.</li>
+        </ul>
+        
+        <h3>Decrypt Text:</h3>
+        <ul>
+            <li>Paste the encrypted text in the right-side input box.</li>
+            <li>Select the custom key option and enter the key used for encryption.</li>
+            <li>Click "Decrypt" to reveal the original text.</li>
+        </ul>
+
+  </div>
 </div>
 
   <script src="script.js"></script>

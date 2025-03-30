@@ -182,3 +182,32 @@ header img{
 #main .input{
   margin-bottom: 30px;
 }
+#description{
+  background: var(--bg);
+  padding: 50px 0;
+}
+#description .description-main{
+  width: 1320px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid var(--aqua);
+  border-radius: 10px;
+  padding: 50px;
+}
+#description .description-main ul li{
+  list-style: none;
+  font-size: 16px;
+  margin: 8px 0;
+}
+#description .description-main h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+#description .description-main p{
+  width: 700px;
+  margin: 20px  auto;
+}
+#description .description-main h2{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
