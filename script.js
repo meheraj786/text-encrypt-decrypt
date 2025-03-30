@@ -1,13 +1,13 @@
-const parralax1 = document.querySelectorAll("#icons .img1");
+const parralax1 = document.querySelectorAll(".shapes .element");
 const parralaxArr1= Array.from(parralax1)
-let s = 250;
+let s = 50;
+let ss=1000
 
 parralaxArr1.map((item)=>{
 
   document.body.addEventListener("mousemove", function (e) {
     let x = e.clientX;
     let y = e.clientY;
-    console.log(x);
   
     item.style.transform = `
       translate(
@@ -16,15 +16,16 @@ parralaxArr1.map((item)=>{
       )`;
   });
 })
-const parralax2 = document.querySelectorAll("#icons .img2");
+const parralax2 = document.querySelector("#banner .planet");
 
   document.body.addEventListener("mousemove", function (e) {
+    
     let x = e.clientX;
     let y = e.clientY;
   
-    item.style.transform = `
+    parralax2.style.transform = `
       translate(
         -${x / ss}%,
-        -${y / ss}%
+        -${0}%
       )`;
   });

@@ -25,22 +25,23 @@ header img{
 }
 #banner{
   background: var(--bg);
-  padding-top: 100px;
+  padding-top: 50px;
   height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
   align-items: center;
+  overflow: hidden;
 }
 #banner .banner-text h1{
-  font-size: 58px;
+  font-size: 48px;
   margin-bottom: 60px;
 }
 #banner .banner-text button{
   background: var(--aqua);
   color: var(--bg);
-  font-size: 22px;
+  font-size: 16px;
   padding: 15px 36px;
   border-radius: 24px;
   border: 1px solid var(--aqua);
@@ -49,7 +50,7 @@ header img{
 #banner .banner-text button:hover{
   background: transparent;
   color: white;
-  font-size: 22px;
+  font-size: 16px;
   padding: 15px 36px;
   border-radius: 24px;
   border: 1px solid var(--aqua);
@@ -59,7 +60,7 @@ header img{
   background: transparent;
   color: white;
   border: 1px solid var(--aqua);
-  font-size: 22px;
+  font-size: 16px;
   padding: 15px 36px;
   border-radius: 24px;
   margin-right: 10px;
@@ -67,7 +68,7 @@ header img{
 #banner .banner-text .info:hover{
   background: var(--aqua);
   color: var(--bg);
-  font-size: 22px;
+  font-size: 16px;
   padding: 15px 36px;
   border-radius: 24px;
   border: 1px solid var(--aqua);
@@ -92,4 +93,52 @@ header img{
   position: absolute;
   top: 10%;
   right: 10%;
+}
+#banner .planet{
+  margin: 0 auto;
+  width: 100%;
+}
+#main{
+  background: var(--bg);
+  padding: 100px 0;
+}
+#main .main-wrapper{
+  width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#main .input{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+#main .input .checkbox{
+  display: flex;
+  align-items: center;
+}
+#main .output{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+#main h2{
+  font-size: 25px;
+}
+#main h6{
+  font-size: 16px;
+  color: #ffffffc5;
+}
+#main textarea{
+  width: 100%;
+  height: 200px;
+  margin: 20px 0;
+  padding: 10px;
+  background: var(--bg);
+  color: white;
+  border: 1px solid var(--aqua);
+  border-radius: 10px;
 }
