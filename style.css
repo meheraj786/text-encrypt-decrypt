@@ -225,3 +225,40 @@ header img{
   font-size: 25px;
   margin-bottom: 10px;
 }
+
+@media (max-width: 768px){
+  header img{
+    width: 200px;
+  }
+  #banner{
+    height: 60vh;
+  }
+  #banner .banner-text h1{
+    font-size: 38px;
+  }
+  #banner button{
+    margin-bottom: 20px;
+  }
+  #main .main-wrapper{
+    width: auto;
+    flex-direction: column;
+  }
+  #main .main-left{
+    width: auto;
+  }
+  #main .main-right{
+    width: 80%;
+  }
+  #description .description-main{
+    width: auto;
+  }
+  #description .description-main p{
+    width: auto;
+    margin: 20px  auto;
+  }
+  #description .description-main h1{
+    font-size: 38px;
+  }
+  
+  
+}
